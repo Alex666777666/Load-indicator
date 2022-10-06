@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50vh;
+  animation: 2s linear infinite blinking;
+}
+
+.spinner-text {
+  font-family: monospace;
+}
+
+.rect {
+  background-color: black;
+  width: 10px;
+  height: 4px;
+  border-radius: 2px;
+  position: relative;
+  animation: 2s linear infinite moving;
+}
