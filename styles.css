@@ -3,7 +3,7 @@
 }
 .spinner {
   margin-top: 50vh;
-  animation: 2s linear infinite blinking;
+  animation: 2s 2s infinite blinking;
 }
 .container {
   display: flex;
@@ -22,6 +22,6 @@
   height: 4px;
   border-radius: 2px;
   position: relative;
-  animation: 2s linear infinite moving;
+  animation: 2s 2s linear infinite moving;
   animation-direction: alternate;
 }
