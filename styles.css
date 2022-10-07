@@ -3,9 +3,9 @@
 }
 .spinner {
   margin-top: 50vh;
+  animation: 2s infinite blinking;
 }
 .container {
-  animation: 2s infinite blinking;
   animation: 2s linear infinite blinking;
   display: flex;
   justify-content: center;
